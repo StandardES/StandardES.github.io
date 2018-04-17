@@ -1,21 +1,11 @@
-<!--
-Project Name: StandardES.github.io
- 
- Author: Shane Fleming
- Date: 01/12/18
- Bergstein Enterprises, Ltd.
- 
- Test of Standard Energy Website
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Standard Energy</title>
-<meta name="description" content="">
-<meta name="author" content="">
+<meta name="description" content="Standard Energy Website Test">
+<meta name="author" content="Shane Fleming">
 
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
@@ -64,6 +54,57 @@ Project Name: StandardES.github.io
         <li> <a class="page-scroll" href="#works">Fleet</a> </li>
         <li> <a class="page-scroll" href="#team">Team</a> </li> 
         <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+      <!DOCTYPE html>
+<style>
+.dropbtn {
+    background-color:  rgba(0,0,0,0);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:  rgba(0,0,0,0);
+}
+</style>
+<div class="dropdown" style="float:right;">
+  <button class="dropbtn"><i class="fa fa-caret-down"></i></button>
+  <div class="dropdown-content">
+    <a href="disposals.html">Saltwater Disposals</a>
+    <a href="yards.html">Standard Yards</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -287,7 +328,7 @@ Project Name: StandardES.github.io
         <div class="thumbnail"> <img src="img/team/04.jpg" alt="..." class="img-thumbnail team-img">
           <div class="caption">
             <h3>Jack Yates</h3>
-            <p>Director of Safety</p>
+            <p>Operations and HS&#38;E Manager</p>
           </div>
         </div>
       </div>
@@ -298,7 +339,8 @@ Project Name: StandardES.github.io
     <hr>
         <p>Submit your resume with cover letter to: <a href="mailto:hr@thestandardenergy.com">hr@thestandardenergy.com</a></p>
         <p>Or</p>
-        <p>Fill out our web PDF: <a href="Application_for_employment-Standard.pdf" target="_blank">Web Application</a></p> 
+        <p>Fill out our web PDF: <a href="Application_for_employment-Standard.pdf" target="_blank">Web Application*</a></p>
+        <p>*Best done in Internet Explorer</p>
     </div>
 </div>
 <!-- Contact Section -->
@@ -342,7 +384,18 @@ Project Name: StandardES.github.io
     
 <div id="footer">
   <div class="container">
-    <p>Copyright &copy; Standard Energy. All Rights Reserved</p>
+    <div id="google_translate_element"></div><p>Copyright &copy; Standard Energy. All Rights Reserved</p>
+      
+      <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      
   </div>
 </div>
     
